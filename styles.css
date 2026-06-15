@@ -209,7 +209,7 @@ h1, h2, h3, h4 {
   font-family: 'Cormorant Garamond', Georgia, serif;
   color: var(--text);
   font-weight: 600;
-  line-height: .96;
+  line-height: 1.06;
   letter-spacing: -.03em;
 }
 h1 { font-size: clamp(3.8rem, 8vw, 8.9rem); }
@@ -757,8 +757,9 @@ p { color: var(--muted); line-height: 1.78; margin: 0; }
   .section { padding: 78px 0; }
   .section.tight { padding: 52px 0; }
   .hero { min-height:auto; padding: 54px 0 46px; }
-  h1 { font-size: clamp(3.1rem, 16vw, 5rem); }
-  h2 { font-size: clamp(2.45rem, 12vw, 4.2rem); }
+  h1 { font-size: clamp(3.1rem, 16vw, 5rem); line-height: 1.12; }
+  .hero-content h1, .page-hero h1 { line-height: 1.12; }
+  h2 { font-size: clamp(2.45rem, 12vw, 4.2rem); line-height: 1.1; }
   .hero-actions, .cta-actions { flex-direction:column; align-items:stretch; }
   .btn { width:100%; }
   .hero-note { margin-top: 32px; }
